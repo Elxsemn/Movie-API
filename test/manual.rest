@@ -1,0 +1,27 @@
+GET http://localhost:3000/User
+
+###
+GET http://localhost:3000/User/1
+
+### 
+GET http://localhost:3000/Show
+
+
+###
+POST http://localhost:3000/User 
+content-type: application/json
+
+{
+    "username": "SuperSimon",
+    "email": "SSimon@icloud.com"
+}
+
+###
+POST http://localhost:3000/User 
+content-type: application/json
+
+{
+    "username": "CrazyCat",
+    "email": "CrazyCat@gmail.com"
+}
+
